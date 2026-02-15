@@ -234,9 +234,19 @@ nav{margin-top:10px;}
 </section>
 
 <footer>
-© 2026 World-Service SRL - P.IVA 03447270731 - Tutti i diritti riservati
+  <p>
+    © <span id="year"></span> World-Service SRL – P.IVA 03447270731 – 
+    Tutti i diritti riservati
+  </p>
+  <p>
+    <a href="#privacy">Privacy Policy</a> | 
+    <a href="#cookie">Cookie Policy</a>
+  </p>
 </footer>
 
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 <a class="whatsapp" href="https://wa.me/393895772633" target="_blank">
 WhatsApp
 </a>
