@@ -1,1 +1,240 @@
-index.html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>World-Service SRL | Impianti Elettrici, Idraulici e Pulizie a Taranto</title>
+
+<meta name="description" content="World-Service SRL a Taranto offre impianti elettrici, impianti idraulici, piccoli lavori edili e pulizie civili e industriali. Professionalità e qualità garantita.">
+<meta name="keywords" content="impianti elettrici Taranto, idraulico Taranto, lavori edili Taranto, pulizie industriali Taranto, pulizie civili Taranto">
+<meta name="author" content="World-Service SRL">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://www.worldservicesrl.it/">
+
+<meta property="og:title" content="World-Service SRL | Servizi Professionali a Taranto">
+<meta property="og:description" content="Impianti elettrici, idraulici, lavori edili e pulizie civili e industriali a Taranto.">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="logo.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+body{background:#f4f6f9;color:#333;line-height:1.6;}
+
+header{
+background:#0a1f44;
+color:white;
+padding:15px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+display:flex;
+align-items:center;
+}
+
+.logo img{
+height:60px;
+margin-right:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:500;
+}
+
+.hero{
+background:linear-gradient(rgba(10,31,68,0.85), rgba(10,31,68,0.85)), url('https://images.unsplash.com/photo-1581091215367-59ab6b44e7f5');
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:110px 20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#1e90ff;
+color:white;
+padding:14px 28px;
+text-decoration:none;
+border-radius:5px;
+font-weight:600;
+}
+
+.section{
+padding:80px 10%;
+text-align:center;
+}
+
+.section h2{
+font-size:30px;
+margin-bottom:40px;
+color:#0a1f44;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#1e90ff;
+margin-bottom:15px;
+}
+
+.contact-box{
+background:#0a1f44;
+color:white;
+padding:40px;
+border-radius:10px;
+}
+
+.contact-box p{margin:10px 0;}
+
+footer{
+background:#081631;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 22px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+@media(max-width:768px){
+header{flex-direction:column;text-align:center;}
+nav{margin-top:10px;}
+}
+</style>
+
+<!-- Schema Markup SEO Locale -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "LocalBusiness",
+"name": "World-Service SRL",
+"image": "https://www.worldservicesrl.it/logo.png",
+"address": {
+  "@type": "PostalAddress",
+  "streetAddress": "Via Bellini 15",
+  "addressLocality": "Taranto",
+  "addressCountry": "IT"
+},
+"telephone": "+393895772633",
+"email": "worldservicesrl25@gmail.com",
+"url": "https://www.worldservicesrl.it",
+"description": "Impianti elettrici, idraulici, lavori edili e pulizie civili e industriali a Taranto."
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+<img src="logo.png" alt="World-Service SRL Logo">
+<h2>World-Service SRL</h2>
+</div>
+<nav>
+<a href="#servizi">Servizi</a>
+<a href="#chi-siamo">Chi Siamo</a>
+<a href="#contatti">Contatti</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Soluzioni complete per la tua casa e la tua azienda a Taranto</h1>
+<p>Impianti elettrici, idraulici, lavori edili e pulizie civili e industriali.</p>
+<a href="#contatti" class="btn">Richiedi un Preventivo</a>
+</section>
+
+<section class="section" id="servizi">
+<h2>I Nostri Servizi a Taranto</h2>
+<div class="services">
+<div class="card">
+<h3>Impianti Elettrici</h3>
+<p>Installazione e manutenzione impianti elettrici civili e industriali a Taranto.</p>
+</div>
+<div class="card">
+<h3>Impianti Idraulici</h3>
+<p>Servizi professionali di idraulica per abitazioni e aziende.</p>
+</div>
+<div class="card">
+<h3>Piccoli Lavori Edili</h3>
+<p>Ristrutturazioni, manutenzioni e interventi edili qualificati.</p>
+</div>
+<div class="card">
+<h3>Pulizie Civili e Industriali</h3>
+<p>Servizi di pulizia professionale per uffici, condomini e industrie.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="chi-siamo">
+<h2>Chi Siamo</h2>
+<p>World-Service SRL è un’azienda con sede a Taranto specializzata in servizi tecnici e manutenzione per privati e imprese. Garantiamo qualità, puntualità e massima professionalità in ogni intervento.</p>
+</section>
+
+<section class="section" id="contatti">
+<h2>Contatti</h2>
+<div class="contact-box">
+<p><strong>Telefono:</strong> 389 577 2633</p>
+<p><strong>Email:</strong> worldservicesrl25@gmail.com</p>
+<p><strong>Indirizzo:</strong> Via Bellini 15, Taranto</p>
+</div>
+</section>
+
+<footer>
+© 2026 World-Service SRL - P.IVA - Tutti i diritti riservati
+</footer>
+
+<a class="whatsapp" href="https://wa.me/393895772633" target="_blank">
+WhatsApp
+</a>
+
+</body>
+</html>
