@@ -31,75 +31,78 @@
 
 body{background:#f4f6f9;color:#333;line-height:1.6;}
 
-header{
-background:#0a1f44;
-color:white;
-padding:10px 10%;
-display:flex;
-justify-content:space-between;
-align-items:center;
+header {
+    background: #0f172a; /* blu scuro moderno */
+    color: white;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
 .logo{
 display:flex;
 align-items:center;
 }
 
-.logo img{
-height:130px;
-margin-right:15px;
+.logo img {
+    height: 90px;
 }
-
 nav a {
-    color: white;
+    color: #cbd5e1;
     text-decoration: none;
-    margin-left: 25px;
+    margin-left: 30px;
     font-weight: 500;
-    transition: all 0.3s ease;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color: #ffd700;
-}
-.hero{
-background:linear-gradient(rgba(10,31,68,0.85), rgba(10,31,68,0.85)), url('https://images.unsplash.com/photo-1581091215367-59ab6b44e7f5');
-background-size:cover;
-background-position:center;
-color:white;
-text-align:center;
-padding:110px 20px;
-}
-
-.hero h1{
-font-size:42px;
-margin-bottom:20px;
+    color: white;
+}}
+.hero {
+    background: linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)),
+                url('https://images.unsplash.com/photo-1581091215367-59ab6b44e7f5');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 140px 20px;
 }
 
-.hero p{
-font-size:18px;
-margin-bottom:30px;
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
-.btn{
-background:#1e90ff;
-color:white;
-padding:14px 28px;
-text-decoration:none;
-border-radius:5px;
-font-weight:600;
+.hero p {
+    font-size: 20px;
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+    color: #cbd5e1;
+}
+.btn {
+    background: #3b82f6;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
-.section{
-padding:80px 10%;
-text-align:center;
+.btn:hover {
+    background: #2563eb;
+    transform: translateY(-3px);
+}
+.section {
+    padding: 90px 8%;
 }
 
-.section h2{
-font-size:30px;
-margin-bottom:40px;
-color:#0a1f44;
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #0f172a;
 }
-
 .services{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
